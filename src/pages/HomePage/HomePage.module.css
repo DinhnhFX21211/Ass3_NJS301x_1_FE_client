@@ -1,0 +1,8 @@
+.container {
+  & .chat {
+    position: fixed;
+    bottom: 3rem;
+    right: 3rem;
+    border: none;
+  }
+}

@@ -1,0 +1,30 @@
+.number-input {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  padding-right: 1rem;
+
+  & input {
+    width: 50%;
+    font-size: 20px;
+    border: none;
+    outline: none;
+    margin-inline: 5px;
+    text-align: center;
+  }
+
+  & input[type="number"] {
+    -webkit-appearance: textfield;
+    -moz-appearance: textfield;
+    appearance: textfield;
+  }
+  & input[type="number"]::-webkit-inner-spin-button,
+  & input[type="number"]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+  }
+
+  & button {
+    border: none;
+    background-color: #fff;
+  }
+}
