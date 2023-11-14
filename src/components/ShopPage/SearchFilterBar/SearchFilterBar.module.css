@@ -1,0 +1,14 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+
+  & .input {
+    width: 30%;
+    padding: 0.5rem 1rem;
+    outline: none;
+  }
+
+  & select {
+    padding-inline: 1rem;
+  }
+}

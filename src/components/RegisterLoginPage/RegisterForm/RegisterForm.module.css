@@ -1,0 +1,13 @@
+.error-text {
+  color: red;
+  font-size: 14px;
+  height: 10px;
+  margin-bottom: 1rem;
+}
+.button {
+  padding: 0.5rem 2rem;
+  border: none;
+  border-radius: 5px;
+  background-color: #1f263e;
+  color: #fff;
+}

@@ -1,0 +1,13 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+  padding-block: 0.7rem;
+  text-transform: uppercase;
+  border-bottom: 1px solid lightgray;
+  align-items: center;
+
+  & p {
+    font-size: 14px;
+    opacity: 0.7;
+  }
+}

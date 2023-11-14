@@ -1,0 +1,42 @@
+.container {
+  position: fixed;
+  bottom: 10rem;
+  right: 5rem;
+  max-width: 30rem;
+  height: 30rem;
+  z-index: 10;
+  background-color: #fff;
+  box-shadow: 0 0 10px gray;
+  border-radius: 10px;
+  animation: onShade 0.3s ease;
+  animation-fill-mode: forwards;
+  width: 30rem;
+
+  & .chat-input {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+  }
+  .hide {
+    display: none;
+  }
+  @media (max-width: 768px) {
+    right: 1rem;
+    margin-left: 1rem;
+  }
+}
+
+@keyframes onShade {
+  0% {
+    transform: rotate(10deg) scale(0.3);
+  }
+  25% {
+    transform: scale(1);
+  }
+  50% {
+    transform: rotate(-10deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}

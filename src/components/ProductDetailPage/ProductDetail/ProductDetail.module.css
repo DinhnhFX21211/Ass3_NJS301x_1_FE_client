@@ -1,0 +1,9 @@
+.img-info {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-top: 2rem;
+
+  @media (max-width: 768px) {
+    grid-template-columns: 1fr;
+  }
+}

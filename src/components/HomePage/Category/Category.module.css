@@ -1,0 +1,38 @@
+.container {
+  padding-block: 2rem;
+  text-align: center;
+  text-transform: uppercase;
+
+  & p {
+    font-size: 12px;
+  }
+
+  & h3 {
+    font-weight: 500;
+    margin-top: 0.5rem;
+  }
+
+  & .imgs {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 1rem;
+    margin-block: 1rem;
+
+    & .wrapper {
+      grid-column: span 2;
+
+      & img {
+        width: 100%;
+      }
+    }
+
+    & .wrapper:hover {
+      opacity: 0.7;
+    }
+
+    & .wrapper:first-of-type,
+    & .wrapper:nth-child(2) {
+      grid-column: span 3;
+    }
+  }
+}

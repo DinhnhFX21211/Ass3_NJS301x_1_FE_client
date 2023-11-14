@@ -1,0 +1,42 @@
+.container {
+  position: relative;
+  height: fit-content;
+  & img {
+    width: 100%;
+  }
+
+  & .inner {
+    position: absolute;
+    top: 45%;
+    left: 3rem;
+    transform: translateY(-50%);
+    width: 40%;
+
+    & p,
+    & h1 {
+      text-transform: uppercase;
+    }
+
+    & h1 {
+      font-weight: 400;
+      margin-block: 1rem;
+    }
+
+    & a {
+      text-decoration: none;
+      background-color: #383838;
+      color: #fff;
+      padding: 0.7rem 2rem;
+      width: fit-content;
+      white-space: nowrap;
+    }
+
+    @media (max-width: 768px) {
+      font-size: 6px;
+
+      & a {
+        padding: 5px 5px;
+      }
+    }
+  }
+}

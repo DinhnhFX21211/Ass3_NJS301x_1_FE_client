@@ -1,0 +1,39 @@
+.services {
+  list-style-type: none;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  padding: 4rem 0rem;
+  background-color: #f8f9fa;
+  gap: 1rem;
+
+  & .info {
+    display: flex;
+    justify-content: center;
+
+    & .inner {
+      display: flex;
+      flex-direction: column;
+    }
+
+    & h2 {
+      font-weight: 500;
+      margin-bottom: 0.6rem;
+    }
+
+    & p {
+      font-size: 12px;
+    }
+  }
+
+  @media (max-width: 768px) {
+    padding: 1rem 0rem;
+    grid-template-columns: 1fr;
+
+    & .inner {
+      text-align: center;
+      & h2 {
+        margin-bottom: 0;
+      }
+    }
+  }
+}

@@ -1,0 +1,29 @@
+.container {
+  padding: 1rem 1rem;
+  background-color: #f2f2f2;
+  display: flex;
+  align-items: center;
+
+  & .actions {
+    display: flex;
+    margin-inline: 1rem;
+
+    & button {
+      border: none;
+    }
+  }
+
+  & i {
+    margin-right: 1rem;
+  }
+
+  & input {
+    outline: none;
+    padding: 0.5rem 1rem;
+    border: none;
+
+    @media (max-width: 768px) {
+      width: 70%;
+    }
+  }
+}

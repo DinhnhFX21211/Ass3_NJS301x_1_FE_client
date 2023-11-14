@@ -1,0 +1,24 @@
+.container {
+  display: grid;
+  grid-template-columns: 1fr 5fr;
+  gap: 1rem;
+
+  & .small-img {
+    list-style-type: none;
+  }
+
+  & li,
+  & .big-img {
+    height: auto;
+    transition: all 0.5s;
+    margin-block: 0.5rem;
+
+    & img {
+      width: 100%;
+    }
+  }
+
+  & li:hover {
+    transform: scale(1.2);
+  }
+}

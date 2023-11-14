@@ -1,0 +1,22 @@
+.container {
+  margin-block: 1rem;
+
+  & input {
+    width: 100%;
+    border: none;
+    padding: 0.8rem 1rem;
+  }
+
+  & button {
+    text-align: center;
+    background-color: black;
+    color: #fff;
+    width: 100%;
+    padding: 0.8rem 0rem;
+    font-style: normal;
+
+    & i {
+      margin-inline: 0.5rem;
+    }
+  }
+}

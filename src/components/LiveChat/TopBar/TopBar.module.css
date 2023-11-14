@@ -1,0 +1,14 @@
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+  border-bottom: 1px solid #a9a9a9;
+
+  & button {
+    background-color: lightgray;
+    border: none;
+    padding: 0.4rem 0.8rem;
+    cursor: pointer;
+  }
+}

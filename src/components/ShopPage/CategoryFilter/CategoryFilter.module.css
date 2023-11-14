@@ -1,0 +1,32 @@
+.container {
+  width: 100%;
+  list-style-type: none;
+  text-transform: uppercase;
+
+  & h3 {
+    font-weight: 300;
+    margin-bottom: 1.5rem;
+  }
+
+  & h4 {
+    background-color: #f2f2f2;
+    padding: 0.5rem 1rem;
+    font-weight: 400;
+  }
+
+  & p {
+    padding: 0.5rem 1rem;
+    background-color: #fff;
+    opacity: 0.7;
+    text-transform: capitalize;
+
+    &:hover {
+      color: rgb(187, 187, 0);
+      cursor: pointer;
+    }
+
+    &.is-selected {
+      color: rgb(187, 187, 0);
+    }
+  }
+}

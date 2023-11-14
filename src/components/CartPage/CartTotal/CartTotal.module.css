@@ -1,0 +1,33 @@
+.container {
+  padding: 2rem 2.5rem;
+  background-color: #f2f2f2;
+  height: fit-content;
+
+  & h2 {
+    font-weight: 400;
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+  }
+
+  & .sub,
+  & .total {
+    display: flex;
+    justify-content: space-between;
+    padding-block: 0.7rem;
+    text-transform: uppercase;
+  }
+
+  & .sub {
+    border-bottom: 1px solid lightgray;
+    & p {
+      font-size: 14px;
+      opacity: 0.7;
+    }
+  }
+
+  & .total {
+    & p {
+      font-size: 1.1rem;
+    }
+  }
+}

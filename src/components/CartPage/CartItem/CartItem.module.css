@@ -1,0 +1,26 @@
+.container {
+  & .wrapper {
+    height: auto;
+    padding-block: 1rem;
+
+    & img {
+      width: 5rem;
+    }
+  }
+
+  & td {
+    padding-inline: 1rem;
+    text-align: center;
+
+    & h4 {
+      font-weight: 500;
+    }
+  }
+
+  & .actions {
+    & button {
+      border: none;
+      margin-inline: 2rem;
+    }
+  }
+}

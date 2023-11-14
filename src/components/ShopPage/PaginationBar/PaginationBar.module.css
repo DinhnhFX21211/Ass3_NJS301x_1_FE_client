@@ -1,0 +1,18 @@
+.container {
+  display: flex;
+  align-items: stretch;
+  justify-content: flex-end;
+
+  & i,
+  & p {
+    padding: 10px 10px;
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+  }
+
+  & p {
+    background-color: black;
+    color: #fff;
+  }
+}

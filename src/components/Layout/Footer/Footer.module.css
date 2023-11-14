@@ -1,0 +1,27 @@
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  list-style-type: none;
+  justify-content: space-between;
+
+  & p {
+    font-size: 15px;
+    font-weight: 100;
+    margin-bottom: 0.5rem;
+  }
+
+  & h2 {
+    text-transform: uppercase;
+    font-weight: 400;
+    margin-bottom: 1rem;
+  }
+
+  @media (max-width: 768px) {
+    text-align: center;
+    justify-content: center;
+
+    & li {
+      margin: 0.5rem;
+    }
+  }
+}

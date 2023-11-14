@@ -1,0 +1,22 @@
+.container {
+  margin-top: 1rem;
+  & .cart {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 2rem;
+
+    @media (max-width: 1200px) {
+      grid-template-columns: 3fr 2fr;
+    }
+
+    @media (max-width: 992px) {
+      grid-template-columns: 1fr;
+    }
+  }
+}
+
+.title {
+  text-transform: uppercase;
+  font-weight: 400;
+  margin-block: 2rem;
+}

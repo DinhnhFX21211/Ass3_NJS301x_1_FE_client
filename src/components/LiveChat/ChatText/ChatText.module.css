@@ -1,0 +1,36 @@
+.container {
+  padding-inline: 1rem;
+  flex-direction: column;
+  height: 22rem;
+  overflow-x: hidden;
+  overflow-y: auto;
+  & .guest p,
+  & .admin p {
+    padding: 0.5rem 1rem;
+    margin-block: 0.5rem;
+    width: fit-content;
+    border-radius: 5px;
+  }
+
+  & .guest {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    & p {
+      background-color: #48b0f7;
+    }
+  }
+
+  & .admin {
+    display: flex;
+    align-items: center;
+
+    & i {
+      margin-right: 1rem;
+    }
+
+    & p {
+      background-color: #f2f2f2;
+    }
+  }
+}

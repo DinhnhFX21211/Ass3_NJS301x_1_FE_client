@@ -1,0 +1,29 @@
+.container {
+  & .id {
+    width: 5rem;
+    overflow: hidden;
+  }
+
+  & td {
+    padding: 0.5rem 1rem;
+    text-align: center;
+
+    & h4 {
+      font-weight: 500;
+    }
+  }
+
+  & .actions {
+    & .show_detail {
+      border: 1px solid black;
+      text-decoration: none;
+      white-space: nowrap;
+      padding: 0.5rem;
+      color: black;
+
+      & i {
+        margin-left: 0.5rem;
+      }
+    }
+  }
+}

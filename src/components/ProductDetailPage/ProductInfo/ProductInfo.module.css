@@ -1,0 +1,22 @@
+.container {
+  padding: 2rem;
+
+  & h3 {
+    font-weight: 400;
+    margin-block: 1rem;
+  }
+
+  & .desc {
+    margin-bottom: 0.5rem;
+    opacity: 0.7;
+  }
+
+  & .category {
+    display: flex;
+    align-items: center;
+
+    & h5 {
+      margin-right: 0.5rem;
+    }
+  }
+}
